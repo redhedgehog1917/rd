@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: "Capture it";
+  src:url('Capture it.ttf');
+	  }
+
+.p
+{font-family: Capture it}
+ 
+@font-face {
+  font-family: "Arial Nova Light";
+  src:url('Arial Nova Light.ttf');
+	  }
+
+.ar
+{font-family: Arial Nova Light}
+ 
+
+.table2 
+{
+    background: #B22222;
+}
+
+.td2 
+{
+    background: #B22222;     
+    border-left: 4px solid #000000;
+}
+p {line-height: 1.5;
+ 
+}
+.link {
+  text-decoration: none;
+}
+ 
+.menu ul li{
+  padding: 10px;
+}
+.menu ul > li:hover{
+  background-color: #B22222;
+}
+.menu ul ul > li:hover{
+  background-color: #B22222;
+}
+
+.menu ul li, .menu ul{
+  display: inline-block; 
+}
+
+.menu ul{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: #B22222;
+	
+}
+.menu ul ul{
+  display: none;
+  position: absolute;
+  background-color: #B22222;
+  margin-top: 10px;
+	margin-left: -73.5px ;
+
+}
+.menu ul a{
+  color: #00000;
+  text-decoration: none;
+}
+.menu ul ul a{
+  color: #000000;
+  text-decoration: none;
+}
+.menu li:hover ul{
+  display: block;
+
+}
+ 
+.menu li:hover li{
+		  display: block;
+}
+
+
+/* a {
+    color: #000000;
+    text-decoration: none; 
+   }
+   a:visited {
+    color: #000000; 
+   } 
+   a:hover {
+    color: gold; 
+    text-decoration: underline; 
+   }
+*/
+ .gct {
+    color: #000000;
+    text-decoration: none; 
+   }
+   .gct:visited {
+    color: #000000; 
+   } 
+   .gct:hover {
+    color: gold; 
+    text-decoration: none; 
+   }
+
+.ist {
+    color: #000000;
+    text-decoration: none; 
+   }
+   .ist:visited {
+    color: #000000; 
+   } 
+   .ist:hover {
+    color: red; 
+    text-decoration: none; 
+   }
+
+.ast {
+    color: #000000;
+    text-decoration: none;
+   }
+
+   .ast:hover {
+    color: gold; 
+    text-decoration: none;
+	  transform: translateY(-7px);
+   }
+
+.ul-align {
+	position: absolute;
+}
+
+.hover-effect-scale {
+    list-style:none;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+.hover-effect-scale li {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    margin: 0;
+    border: 5px solid #fff;
+    box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.hover-effect-scale li h3{
+    color: #fff;
+    margin: 5px;
+}
+.hover-effect-scale li p{
+    color: #fff;
+    margin: 5px;
+}
+.hover-effect-scale li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    margin: 0 auto;
+    transition: all 0.4s ease-in-out;
+}
+.hover-effect-scale li a:hover {
+    background: #454545;
+    color: #fff;
+}
+
+.hover-effect-scale li > div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hover-effect-scale li:hover > div {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.hover-effect-scale li div {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.35); 
+    transition: all 0.4s ease-in-out;
+    color: #fff;
+}
+.hover-effect-scale li img {
+    transition: all 0.2s linear;
+}
+.hover-effect-scale li:hover img {
+    transform: scale(1.3);
+}
+.hover-effect-scale li:hover div {
+    opacity: 1;
+}
+
+.quote {
+  margin: 1em;
+  font: 1.2rem/1.4 Georgia, serif;
+}
+.quote {
+  margin: 0;
+  background: #eee;
+  padding: 1em;
+  border-radius: 1em;
+}
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
+}
+
+a.button {
+  display: inline-block;
+  background: #B22222;
+  padding: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+}
+
+/*td.button-container {
+  box-shadow: 0 0 5px 2px;
+} */
+
+.img-shadow {
+	box-shadow: 0 0 5px 2px;
+}
+
+a.button {
+  width: 270px;
+  height: 20px;
+  margin: 5px;
+  color: black;
+  background: #B22222;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+.button:hover {
+  background: black;
+  box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+  color: #B22222;
+  transform: translateY(-7px);
+}
+
+ 
