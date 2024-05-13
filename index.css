@@ -38,12 +38,6 @@ p {line-height: 1.5;
 .menu ul li{
   padding: 10px;
 }
-.menu ul > li:hover{
-  background-color: #B22222;
-}
-.menu ul ul > li:hover{
-  background-color: #B22222;
-}
 
 .menu ul li, .menu ul{
   display: inline-block; 
