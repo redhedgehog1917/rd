@@ -2,14 +2,6 @@
 /* CSS Document */
 
 @font-face {
-  font-family: "Arial Nova Light";
-  src:url('Arial Nova Light.ttf');
-	  }
-
-.ar
-{font-family: Arial Nova Light}
-
-@font-face {
   font-family: "Capture it";
   src:url('Capture it.ttf');
 	  }
@@ -17,7 +9,13 @@
 .p
 {font-family: Capture it}
  
+@font-face {
+  font-family: "Arial Nova Light";
+  src:url('Arial Nova Light.ttf');
+	  }
 
+.ar
+{font-family: Arial Nova Light}
  
 
 .table2 
